@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF7262772B83612600418076 /* butlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262762B83612600418076 /* butlerApp.swift */; };
+		AF7262792B83612600418076 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262782B83612600418076 /* ContentView.swift */; };
+		AF72627B2B83612600418076 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72627A2B83612600418076 /* Item.swift */; };
+		AF72627D2B83612800418076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF72627C2B83612800418076 /* Assets.xcassets */; };
+		AF7262812B83612800418076 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7262802B83612800418076 /* Preview Assets.xcassets */; };
+		AF72628B2B83612800418076 /* butlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72628A2B83612800418076 /* butlerTests.swift */; };
+		AF7262952B83612800418076 /* butlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262942B83612800418076 /* butlerUITests.swift */; };
+		AF7262972B83612800418076 /* butlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262962B83612800418076 /* butlerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF7262872B83612800418076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF72626B2B83612600418076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7262722B83612600418076;
+			remoteInfo = butler;
+		};
+		AF7262912B83612800418076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF72626B2B83612600418076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7262722B83612600418076;
+			remoteInfo = butler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF7262732B83612600418076 /* butler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = butler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7262762B83612600418076 /* butlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butlerApp.swift; sourceTree = "<group>"; };
+		AF7262782B83612600418076 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF72627A2B83612600418076 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AF72627C2B83612800418076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF72627E2B83612800418076 /* butler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = butler.entitlements; sourceTree = "<group>"; };
+		AF7262802B83612800418076 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF7262862B83612800418076 /* butlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = butlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF72628A2B83612800418076 /* butlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butlerTests.swift; sourceTree = "<group>"; };
+		AF7262902B83612800418076 /* butlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = butlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7262942B83612800418076 /* butlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butlerUITests.swift; sourceTree = "<group>"; };
+		AF7262962B83612800418076 /* butlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7262702B83612600418076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7262832B83612800418076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72628D2B83612800418076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF72626A2B83612600418076 = {
+			isa = PBXGroup;
+			children = (
+				AF7262752B83612600418076 /* butler */,
+				AF7262892B83612800418076 /* butlerTests */,
+				AF7262932B83612800418076 /* butlerUITests */,
+				AF7262742B83612600418076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7262742B83612600418076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7262732B83612600418076 /* butler.app */,
+				AF7262862B83612800418076 /* butlerTests.xctest */,
+				AF7262902B83612800418076 /* butlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7262752B83612600418076 /* butler */ = {
+			isa = PBXGroup;
+			children = (
+				AF7262762B83612600418076 /* butlerApp.swift */,
+				AF7262782B83612600418076 /* ContentView.swift */,
+				AF72627A2B83612600418076 /* Item.swift */,
+				AF72627C2B83612800418076 /* Assets.xcassets */,
+				AF72627E2B83612800418076 /* butler.entitlements */,
+				AF72627F2B83612800418076 /* Preview Content */,
+			);
+			path = butler;
+			sourceTree = "<group>";
+		};
+		AF72627F2B83612800418076 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF7262802B83612800418076 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF7262892B83612800418076 /* butlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF72628A2B83612800418076 /* butlerTests.swift */,
+			);
+			path = butlerTests;
+			sourceTree = "<group>";
+		};
+		AF7262932B83612800418076 /* butlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF7262942B83612800418076 /* butlerUITests.swift */,
+				AF7262962B83612800418076 /* butlerUITestsLaunchTests.swift */,
+			);
+			path = butlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7262722B83612600418076 /* butler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF72629A2B83612800418076 /* Build configuration list for PBXNativeTarget "butler" */;
+			buildPhases = (
+				AF72626F2B83612600418076 /* Sources */,
+				AF7262702B83612600418076 /* Frameworks */,
+				AF7262712B83612600418076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = butler;
+			productName = butler;
+			productReference = AF7262732B83612600418076 /* butler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF7262852B83612800418076 /* butlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF72629D2B83612800418076 /* Build configuration list for PBXNativeTarget "butlerTests" */;
+			buildPhases = (
+				AF7262822B83612800418076 /* Sources */,
+				AF7262832B83612800418076 /* Frameworks */,
+				AF7262842B83612800418076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7262882B83612800418076 /* PBXTargetDependency */,
+			);
+			name = butlerTests;
+			productName = butlerTests;
+			productReference = AF7262862B83612800418076 /* butlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF72628F2B83612800418076 /* butlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7262A02B83612800418076 /* Build configuration list for PBXNativeTarget "butlerUITests" */;
+			buildPhases = (
+				AF72628C2B83612800418076 /* Sources */,
+				AF72628D2B83612800418076 /* Frameworks */,
+				AF72628E2B83612800418076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF7262922B83612800418076 /* PBXTargetDependency */,
+			);
+			name = butlerUITests;
+			productName = butlerUITests;
+			productReference = AF7262902B83612800418076 /* butlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF72626B2B83612600418076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AF7262722B83612600418076 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AF7262852B83612800418076 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AF7262722B83612600418076;
+					};
+					AF72628F2B83612800418076 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AF7262722B83612600418076;
+					};
+				};
+			};
+			buildConfigurationList = AF72626E2B83612600418076 /* Build configuration list for PBXProject "butler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF72626A2B83612600418076;
+			productRefGroup = AF7262742B83612600418076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7262722B83612600418076 /* butler */,
+				AF7262852B83612800418076 /* butlerTests */,
+				AF72628F2B83612800418076 /* butlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF7262712B83612600418076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7262812B83612800418076 /* Preview Assets.xcassets in Resources */,
+				AF72627D2B83612800418076 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7262842B83612800418076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72628E2B83612800418076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF72626F2B83612600418076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7262792B83612600418076 /* ContentView.swift in Sources */,
+				AF72627B2B83612600418076 /* Item.swift in Sources */,
+				AF7262772B83612600418076 /* butlerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7262822B83612800418076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF72628B2B83612800418076 /* butlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF72628C2B83612800418076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7262972B83612800418076 /* butlerUITestsLaunchTests.swift in Sources */,
+				AF7262952B83612800418076 /* butlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF7262882B83612800418076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7262722B83612600418076 /* butler */;
+			targetProxy = AF7262872B83612800418076 /* PBXContainerItemProxy */;
+		};
+		AF7262922B83612800418076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7262722B83612600418076 /* butler */;
+			targetProxy = AF7262912B83612800418076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF7262982B83612800418076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF7262992B83612800418076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AF72629B2B83612800418076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = butler/butler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"butler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manojsinghnegi.butler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF72629C2B83612800418076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = butler/butler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"butler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manojsinghnegi.butler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF72629E2B83612800418076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manojsinghnegi.butlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/butler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/butler";
+			};
+			name = Debug;
+		};
+		AF72629F2B83612800418076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manojsinghnegi.butlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/butler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/butler";
+			};
+			name = Release;
+		};
+		AF7262A12B83612800418076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manojsinghnegi.butlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = butler;
+			};
+			name = Debug;
+		};
+		AF7262A22B83612800418076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manojsinghnegi.butlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = butler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF72626E2B83612600418076 /* Build configuration list for PBXProject "butler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7262982B83612800418076 /* Debug */,
+				AF7262992B83612800418076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF72629A2B83612800418076 /* Build configuration list for PBXNativeTarget "butler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72629B2B83612800418076 /* Debug */,
+				AF72629C2B83612800418076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF72629D2B83612800418076 /* Build configuration list for PBXNativeTarget "butlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72629E2B83612800418076 /* Debug */,
+				AF72629F2B83612800418076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7262A02B83612800418076 /* Build configuration list for PBXNativeTarget "butlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7262A12B83612800418076 /* Debug */,
+				AF7262A22B83612800418076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF72626B2B83612600418076 /* Project object */;
+}
