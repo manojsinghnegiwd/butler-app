@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4A6B2B2B86520E008BEC6F /* ToolbarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4A6B2A2B86520E008BEC6F /* ToolbarWrapper.swift */; };
+		AF4A6B2D2B866988008BEC6F /* YoutubeVideoToSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4A6B2C2B866988008BEC6F /* YoutubeVideoToSummaryView.swift */; };
+		AF5B28B42B84F4A0008FADA8 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = AF5B28B32B84F4A0008FADA8 /* SocketIO */; };
 		AF7262772B83612600418076 /* butlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262762B83612600418076 /* butlerApp.swift */; };
 		AF7262792B83612600418076 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262782B83612600418076 /* ContentView.swift */; };
-		AF72627B2B83612600418076 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72627A2B83612600418076 /* Item.swift */; };
 		AF72627D2B83612800418076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF72627C2B83612800418076 /* Assets.xcassets */; };
 		AF7262812B83612800418076 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7262802B83612800418076 /* Preview Assets.xcassets */; };
 		AF72628B2B83612800418076 /* butlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72628A2B83612800418076 /* butlerTests.swift */; };
 		AF7262952B83612800418076 /* butlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262942B83612800418076 /* butlerUITests.swift */; };
 		AF7262972B83612800418076 /* butlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7262962B83612800418076 /* butlerUITestsLaunchTests.swift */; };
+		AF72B7992B87AAFC00AE2EBA /* UrlToSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72B7982B87AAFC00AE2EBA /* UrlToSummaryView.swift */; };
+		AF72B79B2B87ACAA00AE2EBA /* GenerateShortStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72B79A2B87ACAA00AE2EBA /* GenerateShortStoryView.swift */; };
+		AF72B79D2B8888A700AE2EBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72B79C2B8888A700AE2EBA /* Constants.swift */; };
+		AF72B7A12B88898E00AE2EBA /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72B7A02B88898E00AE2EBA /* Utility.swift */; };
+		AF72B7A32B888A1300AE2EBA /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72B7A22B888A1300AE2EBA /* PostRequest.swift */; };
+		AFB22A4E2B836BD800A3B063 /* GenerateIdeasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB22A4D2B836BD800A3B063 /* GenerateIdeasView.swift */; };
+		AFC4CDC92B8495C700AF19D7 /* UniversalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4CDC82B8495C700AF19D7 /* UniversalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF4A6B2A2B86520E008BEC6F /* ToolbarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarWrapper.swift; sourceTree = "<group>"; };
+		AF4A6B2C2B866988008BEC6F /* YoutubeVideoToSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoToSummaryView.swift; sourceTree = "<group>"; };
 		AF7262732B83612600418076 /* butler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = butler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7262762B83612600418076 /* butlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butlerApp.swift; sourceTree = "<group>"; };
 		AF7262782B83612600418076 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AF72627A2B83612600418076 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AF72627C2B83612800418076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF72627E2B83612800418076 /* butler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = butler.entitlements; sourceTree = "<group>"; };
 		AF7262802B83612800418076 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +57,13 @@
 		AF7262902B83612800418076 /* butlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = butlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7262942B83612800418076 /* butlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butlerUITests.swift; sourceTree = "<group>"; };
 		AF7262962B83612800418076 /* butlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF72B7982B87AAFC00AE2EBA /* UrlToSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlToSummaryView.swift; sourceTree = "<group>"; };
+		AF72B79A2B87ACAA00AE2EBA /* GenerateShortStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateShortStoryView.swift; sourceTree = "<group>"; };
+		AF72B79C2B8888A700AE2EBA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF72B7A02B88898E00AE2EBA /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AF72B7A22B888A1300AE2EBA /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		AFB22A4D2B836BD800A3B063 /* GenerateIdeasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateIdeasView.swift; sourceTree = "<group>"; };
+		AFC4CDC82B8495C700AF19D7 /* UniversalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5B28B42B84F4A0008FADA8 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF5B28B52B84F4C1008FADA8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AF72B79C2B8888A700AE2EBA /* Constants.swift */,
+				AF72B7A02B88898E00AE2EBA /* Utility.swift */,
+				AF72B7A22B888A1300AE2EBA /* PostRequest.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		AF72626A2B83612600418076 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +125,10 @@
 		AF7262752B83612600418076 /* butler */ = {
 			isa = PBXGroup;
 			children = (
+				AF5B28B52B84F4C1008FADA8 /* Utils */,
+				AF7262A42B8366D800418076 /* Views */,
 				AF7262762B83612600418076 /* butlerApp.swift */,
 				AF7262782B83612600418076 /* ContentView.swift */,
-				AF72627A2B83612600418076 /* Item.swift */,
 				AF72627C2B83612800418076 /* Assets.xcassets */,
 				AF72627E2B83612800418076 /* butler.entitlements */,
 				AF72627F2B83612800418076 /* Preview Content */,
@@ -132,6 +161,27 @@
 			path = butlerUITests;
 			sourceTree = "<group>";
 		};
+		AF7262A42B8366D800418076 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4CDC52B84951700AF19D7 /* Components */,
+				AFB22A4D2B836BD800A3B063 /* GenerateIdeasView.swift */,
+				AF72B79A2B87ACAA00AE2EBA /* GenerateShortStoryView.swift */,
+				AF4A6B2C2B866988008BEC6F /* YoutubeVideoToSummaryView.swift */,
+				AF72B7982B87AAFC00AE2EBA /* UrlToSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFC4CDC52B84951700AF19D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4CDC82B8495C700AF19D7 /* UniversalButton.swift */,
+				AF4A6B2A2B86520E008BEC6F /* ToolbarWrapper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +198,9 @@
 			dependencies = (
 			);
 			name = butler;
+			packageProductDependencies = (
+				AF5B28B32B84F4A0008FADA8 /* SocketIO */,
+			);
 			productName = butler;
 			productReference = AF7262732B83612600418076 /* butler.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +273,9 @@
 				Base,
 			);
 			mainGroup = AF72626A2B83612600418076;
+			packageReferences = (
+				AF5B28B22B84F4A0008FADA8 /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			productRefGroup = AF7262742B83612600418076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,9 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF72B7A12B88898E00AE2EBA /* Utility.swift in Sources */,
+				AF72B7A32B888A1300AE2EBA /* PostRequest.swift in Sources */,
+				AF72B7992B87AAFC00AE2EBA /* UrlToSummaryView.swift in Sources */,
 				AF7262792B83612600418076 /* ContentView.swift in Sources */,
-				AF72627B2B83612600418076 /* Item.swift in Sources */,
+				AFB22A4E2B836BD800A3B063 /* GenerateIdeasView.swift in Sources */,
+				AF4A6B2B2B86520E008BEC6F /* ToolbarWrapper.swift in Sources */,
+				AF72B79B2B87ACAA00AE2EBA /* GenerateShortStoryView.swift in Sources */,
+				AFC4CDC92B8495C700AF19D7 /* UniversalButton.swift in Sources */,
 				AF7262772B83612600418076 /* butlerApp.swift in Sources */,
+				AF4A6B2D2B866988008BEC6F /* YoutubeVideoToSummaryView.swift in Sources */,
+				AF72B79D2B8888A700AE2EBA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"butler/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JA424ZU27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -460,6 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"butler/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JA424ZU27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -613,6 +679,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF5B28B22B84F4A0008FADA8 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF5B28B32B84F4A0008FADA8 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF5B28B22B84F4A0008FADA8 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF72626B2B83612600418076 /* Project object */;
 }
